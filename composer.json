@@ -1,20 +1,22 @@
 {
     "name": "cristiancy96/mandrill",
-    "description": "",
+    "description": "Mandrill transactional emails via Laravel 4",
+    "type": "library",
+    "keywords": ["laravel","mandrill","email"],
+	
     "authors": [
         {
             "name": "Cristian Cruz Yate",
             "email": "cristiancy96@gmail.com"
         }
     ],
+	"homepage": "https://github.com/cristiancy96/mandrill",
+    "license": "MIT",
     "require": {
         "php": ">=5.3.0",
         "illuminate/support": "4.1.*"
     },
-    "autoload": {
-        "classmap": [
-            "src/migrations"
-        ],
+    "autoload": {	
         "psr-0": {
             "Cristiancy96\\Mandrill\\": "src/"
         }
