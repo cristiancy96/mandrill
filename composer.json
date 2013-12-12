@@ -3,8 +3,7 @@
     "description": "Mandrill transactional emails via Laravel 4",
     "type": "library",
     "keywords": ["laravel","mandrill","email"],
-	
-    "authors": [
+	"authors": [
         {
             "name": "Cristian Cruz Yate",
             "email": "cristiancy96@gmail.com"
